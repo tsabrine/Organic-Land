@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Organic Land Restaurant</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <!--Font-->
+        <link href="https://fonts.googleapis.com/css?family=Satisfy|Open+Sans" rel="stylesheet">
+        
+        <!--POlyfill-->
+        <script>
+            // Picture element HTML5 shiv
+            document.createElement( "picture" );
+        </script>
+        <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js" async></script>
+    </head>
+
+    <body>
+    
+        <header>
+            <div class="wrapper">
+                <h1 class="logo"></h1>
+                <nav>
+                   <!--<a class="apple-nav"></a>-->
+                    <h2>Main Navigation</h2>
+                    <ul>
+                        <li><a href="">Our Philosophy</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a href="">Reservations</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Reviews</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <!-- Start homepage content -->
+        
+        <div id="main-banner">
+<!--           <picture>
+               <source srcset="images/banner-small.jpg" media="(max-width:480px)">
+               <source srcset="images/banner-medium.jpg" media="(max-width: 768px)">
+               <img srcset="images/banner.jpg" alt="Banner">
+           </picture>-->
+            <img src="images/banner.png" alt="Welcome to Organic Land">
+            <div id="text-container">
+                <h1>Welcome to Organic Land</h1>
+                <p>Organic delicious &amp; customisable meals freshly prepared just for you!<br>
+                 In our restaurant and store, fruits and vegetables are hand picked with love, <br>
+                 we work with local producers that care about the environment and your health! <br>
+                 Stepping in our place is chosing a better life quality!</p>
+            </div>
+            
+            
+        </div>
+        
+        <div class="wrapper">
+        <section id="home-menu">
+            <h2>The Specials</h2>
+            <ul>
+                <li>
+                    <span class="dish">Buffalo Burger</span>
+                    <span class="price">$20</span>
+                    <span class="description">American cheese, Organic Lettuce, Tomato and Red onion</span>
+                </li>
+                <li>
+                    <span class="dish">Whole Wheat Wrap</span>
+                    <span class="price">$20</span>
+                    <span class="description">Scrambled egg whites, Chicken, Sausage, Jalapeno, Wok Greens</span>
+                </li>
+                <li>
+                    <span class="dish">Home Made Waffles</span>
+                    <span class="price">$20</span>
+                    <span class="description">Farmer Ground Whole Wheat Waffle, Apple butter</span>
+                </li>
+                <li>
+                    <span class="dish">Super Bowl</span>
+                    <span class="price">$20</span>
+                    <span class="description">Fresh Greek Yogurt, Chia Seeds, Housemade Granola</span>
+                </li>
+                <li>
+                    <span class="dish">Housemade Bloody Mary</span>
+                    <span class="price">$10</span>
+                    <span class="description">Republic Vodka, Organic Tomato/Carrot Juice</span>
+                </li>
+                <li>
+                    <span class="dish">Very Berry Smoothie</span>
+                    <span class="price">$10</span>
+                    <span class="description">Organic nonfat Yogurt, Organic banana, Orange juice,</span>
+                </li>
+
+            </ul>
+
+        </section>
+        
+        <section id="featured">
+            <ul>
+                <li>
+                    <img src="images/breakfast.png">
+                    <a href="">Breakfast</a>
+                    <span>$15</span>
+                    <span class="rating"></span>
+                </li>
+                <li>
+                    <img src="images/brunch.png">
+                    <a href="">Brunch</a>
+                    <span>$30</span>
+                    <span class="rating"></span>
+                </li>
+                <li>
+                    <img src="images/lunch.png">
+                    <a href="">Lunch</a>
+                    <span>$35</span>
+                    <span class="rating"></span>
+                </li>
+                <li>
+                    <img src="images/drinks.png">
+                    <a href="">Drinks</a>
+                    <span>$8</span>
+                    <span class="rating"></span>
+                </li>
+            </ul>
+        </section>
+        </div>
+        <!-- End homepage content -->
+        
+        <footer>
+            <div class="wrapper">
+                <ul>
+                    <li><span class="diffcol">Organic Land Sydney</span></li>
+                    <li>3926 George Street</li>
+                    <li>Sydney, NSW, 5000</li>
+                    <li>Australia</li>
+                    <li>745-555-7898</li>
+                </ul>
+                <ul>
+                    <li><span class="diffcol">Organic Land Paris</span></li>
+                    <li>68, rue Saint-André des Arts</li>
+                    <li>75006, Paris</li> 
+                    <li>France</li>
+                    <li>07.88.90.88.09</li>
+                </ul>
+                <ul>
+                    <li><a href="" class="diffcol">Blog</a></li>
+                    <li><a href="" class="diffcol">Join Us |Career</a></li>
+                    <li><a href="" class="diffcol">Privacy Policy</a></li>
+                    <li><a href="" class="diffcol">Contact</a></li>
+                </ul>
+                <ul>
+                    <!--<li><img src="images/logo.png" alt="logo" width="200" height="150"></li>-->
+                    <li>&copy;2016 - <br>Made by <span class="diffcol">T.Sabrine</span></li>
+
+                </ul>
+            </div>
+        </footer>
+        
+        <!--Load the CDN jQuery first-->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+        
+        <!--If the CDN fails to load, use the local jQuery version-->
+        <!--<script>window.jQuery || document.write('<script src="js/jquery-3.2.1.js"><\/script>')</script>
+        
+        <script src="menu.js"></script>-->
+    </body>
+    
+</html>
